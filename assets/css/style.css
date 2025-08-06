@@ -1,3 +1,9 @@
+:root {
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146c43;
+}
+
+
 .btn {
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #146c43;
@@ -9,6 +15,10 @@
 
 main {
     margin-top: 5rem;
+}
+
+section {
+    scroll-margin-top: 6rem;
 }
 
 .navbar-brand img {
@@ -32,7 +42,6 @@ main {
     background: linear-gradient(transparent, black);
     position: absolute;
 }
-
 
 .card-menu img {
     height: 300px;
